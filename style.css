@@ -45,7 +45,8 @@ color: orange;
 }
 .card:hover{
     background-color: brown;
-   
+    display: flex;
+    justify-content: space-between;
     transform:rotateX(20deg) ;
     transition: all 1s;
 }
