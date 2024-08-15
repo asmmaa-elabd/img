@@ -4,10 +4,6 @@
     position: fixed;
 
 }
-@media (max-width : 750px){
-
-    
-  }
 .item{
 background: linear-gradient(rgba(0, 0, 0,0.7),rgba(0, 0, 0,0.7)),url(6.jpg);
 height: 1100px;
@@ -49,7 +45,9 @@ color: orange;
     transform:rotateX(20deg) ;
     transition: all 1s;
 }
-.card{
-    display: flex;
-    justify-content: space-between;
-    
+.container1{
+    margin: 30px 20px 30px 20px;
+}
+.container2{
+    text-align: center;
+}
